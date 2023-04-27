@@ -1,0 +1,74 @@
+.login{
+    margin-top: 100px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 4px 4px 8px 4px rgba(0.2, 0, 0.2, 0.2);
+    /*margin: auto;*/
+    position:relative;
+    height: 500x;
+    padding-left: 100px; 
+    padding-bottom: 50px; 
+    padding-top: 80px;
+    margin: 130px auto 30px;
+    max-width: 600px;
+    /*background-color: rgba(255, 255, 255, 0.8);*/
+    
+    flex:1;
+  
+  }
+
+  .taker{
+    font-size: 30px;
+    font-family: Roboto, Arial;
+    font-weight: bolder;
+    color: rgb(163, 130, 163) ;
+    padding-left: 150px;
+
+  }
+
+  
+
+  body{
+    background-color:rgb(163, 130, 163) ;
+  }
+
+  .entity{
+    padding-top: 20px;
+    height: 50px;
+    font-size: medium;
+    font-family: Roboto, Arial;
+  }
+
+  .login-btn{
+    border-radius: 10px;
+    padding: 1px;
+    background-color: rgb(102, 46, 99);
+    width: 430px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+  }
+
+  .log{
+    font-family: Roboto, Arial;
+    font-size: 20px;
+    font-weight: bold;
+    color: rgb(255, 214, 101);
+    padding-left: 180px;
+    
+    
+  }
+
+  .logs{
+    font-family: Roboto, Arial;
+    font-size: 20px;
+    font-weight: bold;
+    color: rgb(102, 46, 99);
+  }
+
+  
+
+  input{
+    width: 70%;
+  }
+  
+

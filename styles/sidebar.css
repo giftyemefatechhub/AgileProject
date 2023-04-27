@@ -1,0 +1,39 @@
+.sidebar{
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    top: 85px;
+    background-color: white;
+    width: 120px;
+    z-index: 200;
+    padding-top: 8px;
+    background-color: rgba(226, 133, 178, 0.868);
+    /*background-color: rgb(206, 162, 206) ;*/
+}
+
+.sidebar-link{
+    height: 120px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;/*For flex direction column, 
+    justify-content is above align-items*/
+    cursor: pointer;
+ 
+}
+
+.sidebar-link:hover{
+    background-color:rgb(238, 195, 216);
+}
+
+.sidebar-link img{ /*With this technique we can target all the images within the sidebar-links */
+    height: 45px;
+    margin-bottom: 4px;
+
+} 
+
+.sidebar-link div{
+    font-family: Roboto, Arial;
+    font-size: 15px;
+}
+
