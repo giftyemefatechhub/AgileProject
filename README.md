@@ -1,6 +1,6 @@
 # Task Management App
 
-This is a task management application built with HTML, CSS, JavaScript, SQLite, and Node.js. The app allows employees to track their progress for every sprint, document their mood, receive notifications for breaks, and includes a calendar feature.
+This is a task management web-based application built with HTML, CSS, JavaScript, SQLite, and Node.js. The app allows employees to track their progress for every sprint, document their mood, receive notifications for breaks, and includes a calendar feature.
 
 ## Features
 
@@ -11,6 +11,16 @@ This is a task management application built with HTML, CSS, JavaScript, SQLite, 
 - Mood Tracking: Employees can document their mood.
 - Break Notifications: Employees receive notifications for taking breaks.
 - Calendar: The app includes a calendar feature for scheduling tasks and events.
+
+## Usage
+To access the Task Management app
+- Register an account 
+- log into your account
+- Manage tasks
+- Track your progress for each sprint 
+- Document your mood
+- Receive notifications for taking breaks
+- Schedule tasks and events using calendar feature 
 
 ## Installation
 
@@ -84,6 +94,11 @@ This is a task management application built with HTML, CSS, JavaScript, SQLite, 
   - middleware/
     - authMiddleware.test.js
 - README.md
+
+## Troubleshooting
+If you encounter any issues while using this application, please refer to the following resources;
+-The documentation in this README file.
+-The code comments and inline documentation  to understand the code and how it works.
 
 # Contributing
 Contributions are welcome! If you would like to contribute to the project, please follow these steps:
