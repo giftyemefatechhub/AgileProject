@@ -17,7 +17,7 @@ This is a task management web-based application built with HTML, CSS, JavaScript
 1. Clone the repository:
 
    ```shell
-   git clone https://github.com/your-username/task-management-app.git
+   https://github.com/giftyemefatechhub/TaskMap-Project.git
 2. Install dependecies:
    cd task-management-app
    npm install
