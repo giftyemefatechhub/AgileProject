@@ -43,46 +43,17 @@ This is a task management web-based application built with HTML, CSS, JavaScript
 - public/
   - css/
     - style.css
+    - calendar.css
+    - login.css
+    - prompt.css
+    - register.css
+    - tasks.css
   - js/
     - main.js
     - calendar.js
-- controllers/
-  - tasksController.js
-  - employeeController.js
-  - moodController.js
-  - authController.js
-  - calendarController.js
-- models/
-  - taskModel.js
-  - employeeModel.js
-  - moodModel.js
 - database/
   - db.js
-  - migrations/
-    - create_tasks_table.js
-    - create_employees_table.js
-- routes/
-  - index.js
-  - tasks.js
-  - employee.js
-  - mood.js
-  - auth.js
-  - calendar.js
-- middleware/
-  - authMiddleware.js
 - tests/
-  - controllers/
-    - tasksController.test.js
-    - employeeController.test.js
-    - moodController.test.js
-    - authController.test.js
-    - calendarController.test.js
-  - models/
-    - taskModel.test.js
-    - employeeModel.test.js
-    - moodModel.test.js
-  - middleware/
-    - authMiddleware.test.js
 - README.md
 
 ## Usage
