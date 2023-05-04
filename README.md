@@ -49,8 +49,12 @@ This is a task management web-based application built with HTML, CSS, JavaScript
     - register.css
     - tasks.css
   - js/
+    - server.js
     - main.js
+    - register.js
+    - login.js
     - calendar.js
+    - tasks.js
 - database/
   - db.js
 - tests/
