@@ -1,0 +1,51 @@
+<!-- tasks.html -->
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tasks</title>
+    <link rel="stylesheet" href="/public/css/tasks.css">
+</head>
+
+<body>
+    <header>
+        <h1>Task Management</h1>
+    </header>
+    <div class="container">
+        <div class="task-form-container">
+            <h2>Add Task</h2>
+
+            <div class="form-group">
+                <label for="task-name">Task Name:</label>
+                <input type="text" id="task-name" name="task-name" value="" required>
+            </div>
+            
+            <div class="form-group">
+                <button id="add">Add Task</button>
+            </div>
+
+        </div>
+
+        <div class="task-list-container">
+
+            <div class="task-list-head">
+                <h2>Task List</h2>
+            </div>
+            <div id="task-list" class="task-list">
+
+            </div>
+        </div>
+        <div class="basic">
+            <h2>Completed Tasks</h2>
+            <div class="comp-tasks"></div>
+        </div>
+
+    </div>
+
+    <script src="../js/tasks.js">
+    </script>
+
+</html>

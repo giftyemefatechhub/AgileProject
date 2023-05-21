@@ -1,0 +1,71 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f7f7f7;
+}
+
+.container {
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 10px 0px 20px rgba(0, 0, 0, 0.1);
+  margin: 20px auto;
+  max-width: 800px;
+  padding: 30px;
+  text-align: center;
+}
+#employee-pic{
+  height: 100px;
+  border:1px solid black;
+  border-radius: 50%;
+  border-end-end-radius: 0%;
+  border-end-start-radius: 0%;
+  padding: 5px;
+  background-color: #edf6f9;
+  box-shadow: 10px 10px #babcbd
+}
+
+h1 {
+  margin-top: 0;
+}
+
+form {
+  margin-top: 20px;
+}
+
+.row {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 20px;
+}
+
+label {
+  margin-bottom: 5px;
+  text-align: left;
+}
+
+input[type="text"],
+input[type="date"],
+textarea,
+input[type="tel"],
+input[type="file"] {
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+  padding: 10px;
+  width: 70%;
+  
+}
+
+button[type="submit"] {
+  background-color: #00bfff;
+  border: none;
+  border-radius: 5px;
+  color: #fff;
+  cursor: pointer;
+  font-size: 16px;
+  padding: 10px 20px;
+  transition: background-color 0.3s;
+}
+
+button[type="submit"]:hover {
+  background-color: #0080ff;
+}

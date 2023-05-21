@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Employee Details</title>
+    <link rel="stylesheet" type="text/css" href="/public/css/employee.css">
+</head>
+
+<body>
+    <div class="container">
+        <h1>Employee Details</h1>
+        
+            <img id="employee-pic" src="/public/css/images/user.svg" alt="">
+       
+        <form id="employee-form">
+            <div class="row">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+            </div>
+            <div class="row">
+                <label for="address">Address:</label>
+                <textarea id="address" name="address" rows="3"></textarea>
+            </div>
+            <div class="row">
+                <label for="country">Country of Residence:</label>
+                <input type="text" id="country" name="country">
+            </div>
+            <div class="row">
+                <label for="dob">Date of Birth:</label>
+                <input type="date" id="dob" name="dob">
+            </div>
+            <div class="row">
+                <label for="phone">Phone:</label>
+                <input type="tel" id="phone" name="phone">
+            </div>
+            <div class="row">
+                <label for="emergency-contact">Emergency Contact:</label>
+                <input type="text" id="emergency-contact" name="emergency-contact">
+            </div>
+            <div class="row">
+                <label for="self-description">Self Description:</label>
+                <textarea id="self-description" name="self-description" rows="3"></textarea>
+            </div>
+            <div class="row">
+                <label for="picture">Picture:</label>
+                <input type="file" id="picture" name="picture">
+            </div>
+            <button type="submit">Save</button>
+        </form>
+    </div>
+    <script src="/js/employee.js"></script>
+</body>
+
+</html>
